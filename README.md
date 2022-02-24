@@ -17,7 +17,7 @@ The configuration of the Core ( first three machine ) is done by using https://g
 for convinience we have uploaded in this repository just the NFs and Config files ( to run the simulation the all free5gc repository is needed ),
 the config files that we have modified can be found inside [C-Plane/NFs](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/C-Plane_settings).
 
-to start all the NFs we have used a script: <run_core.sh> https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/C-Plane_settings ( that is automatically executed by the final python script 'see later').
+to start all the NFs we have used a script: <run_core.sh> [C-Plane/run_core](https://github.com/Bofa14/Free5gc-UERANSIM-project/blob/main/C-Plane_settings/run_core.sh) ( that is automatically executed by the final python script 'see later').
 
 
 * CONFIGURATION OF THE U-Plane1:
