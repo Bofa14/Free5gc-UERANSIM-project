@@ -8,6 +8,7 @@ Simulation of a 5G network using Free5gc + UERANSIM. The enviroment is composed 
 * 6 - Server for Iperf
 
 The configuration of the Core ( first three machine ) is done by using https://github.com/free5gc/free5gc, for the UE and gNB we have used https://github.com/aligungr/UERANSIM.
+---
 
 
 <br/>
@@ -45,13 +46,14 @@ The modified config `free5gc-gnb.yaml` files can be found inside [gNB/config](ht
 
 For the UE we have added 5 users, which config files are [UE/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/UE_settings/config).
 We have then registered all the ue using the free5gc webconsole [free5gc/webconsole](https://github.com/free5gc/free5gc/wiki/New-Subscriber-via-webconsole).
-<br/>
-<br/>
-<br/>
-<br/>
-
-
 ---
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
 
 
 As mentioned many times before *we have uploaded just the config files that we have modified* in order to fully reproduce the simulation, you have to create 5 virtual machine (with ubuntu 20.04) and follow the installation instruction provided by https://github.com/free5gc/free5gc and https://github.com/aligungr/UERANSIM.
