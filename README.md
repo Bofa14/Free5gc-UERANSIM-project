@@ -69,8 +69,7 @@ python3 5g_run.py
 ```
 The script will open a ssh connection and run the respective script for all the components. Type "stop" in the same shell to terminate all. (the main script when stop is signalled will trigger other scripts that we have created to close in the right way all the funtions, a problem when dealing with many ssh connection ).
 <br/>
-<br/>
-<br/>
+
 
 The Script to stop all the function need to be copied in the home directory of all the machine ( and made executable ). They can be found here: [stop_script](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/Stop_Script).
 <br/>
