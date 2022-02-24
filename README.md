@@ -48,9 +48,9 @@ We have then registered all the ue using the free5gc webconsole [free5gc/webcons
 
 
 <br/>
-<br/>
 
 ---
+<br/>
 <br/>
 <br/>
 
