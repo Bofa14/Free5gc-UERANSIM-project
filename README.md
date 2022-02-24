@@ -22,18 +22,18 @@ to start all the NFs we have used a script: <run_core.sh> [C-Plane/run_core](htt
 
 * CONFIGURATION OF THE U-Plane1:
 
-for the U-Plane1 we have modified just the config files inside [C-Plane/U_Plane1/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config) (upfcfg.yaml).
+for the U-Plane1 we have modified just the config files inside [U_Plane1/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config) (upfcfg.yaml).
 
 
 * CONFIGURATION OF THE U-Plane2:
 
-for the U-Plane2 we have modified just the config files inside [C-Plane/U_Plane2/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config) (upfcfg.yaml).
+for the U-Plane2 we have modified just the config files inside [U_Plane2/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config) (upfcfg.yaml).
 
 
 * CONFIGURATION OF THE gNB:
 
 As for the Core we have uploaded just the config file modified, but to run the whole UERANSIM repository is needed
-the modified config files can be found inside https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/gNB_settings/config (free5gc-gnb.yaml).
+the modified config files can be found inside [gNB/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/gNB_settings/config (free5gc-gnb.yaml).
 
 
 * CONFIGURATION OF THE UE:
