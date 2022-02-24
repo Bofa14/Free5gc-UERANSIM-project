@@ -40,7 +40,10 @@ the modified config files can be found inside [gNB/config](https://github.com/Bo
 
 For the UE we have added 5 users, which config files are https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/UE_settings/config.
 We have then registered all the ue using the free5gc webconsole https://github.com/free5gc/free5gc/wiki/New-Subscriber-via-webconsole.
-
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
