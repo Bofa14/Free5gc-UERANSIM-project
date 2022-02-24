@@ -20,15 +20,18 @@ the config files that we have modified can be found inside [C-Plane/NFs](https:/
 
 to start all the NFs we have used a script: <run_core.sh> [C-Plane/run_core](https://github.com/Bofa14/Free5gc-UERANSIM-project/blob/main/C-Plane_settings/run_core.sh) ( that is automatically executed by the final python script 'see later').
 <br/>
+<br/>
 
 * CONFIGURATION OF THE U-Plane1:
 
 for the U-Plane1 we have modified just the config files inside [U_Plane1/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config) (upfcfg.yaml).
 <br/>
+<br/>
 
 * CONFIGURATION OF THE U-Plane2:
 
 for the U-Plane2 we have modified just the config files inside [U_Plane2/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config) (upfcfg.yaml).
+<br/>
 <br/>
 
 * CONFIGURATION OF THE gNB:
@@ -58,6 +61,8 @@ In order for the main script (placed in the main machine) to open an ssh connect
 When all VMachine are up and configured with the instruction provided, run the script https://github.com/Bofa14/Free5gc-UERANSIM-project/blob/fdf52972711db902fd322e675ead3ec8beefc8d8/5g_run.py on the main Machine, ( to run type in shell <python3 5g_run.py> ). The script will open a ssh connection and run the respective script for all the components. Type "stop" in the same shell where the main script was started to terminate all. (the main script when stop is signalled will trigger other scripts that we have created to close in the right way all the funtions, a problem when dealing with many ssh connection ).
 <br/>
 <br/>
+<br/>
+
 The Script to stop all the function need to be copied in the home directory of all the machine ( and made executable ). They can be found here: https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/Stop_Script.
 <br/>
 <br/>
