@@ -18,26 +18,26 @@ The configuration of the Core ( first three machine ) is done by using https://g
 for convinience we have uploaded in this repository just the NFs and Config files (to run the simulation the all free5gc repository is needed),
 the config files that we have modified can be found inside [C-Plane/NFs](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/C-Plane_settings).
 
-to start all the NFs we have used a script: <run_core.sh> [C-Plane/run_core](https://github.com/Bofa14/Free5gc-UERANSIM-project/blob/main/C-Plane_settings/run_core.sh) ( that is automatically executed by the final python script 'see later').
+to start all the NFs we have used a script: `<run_core.sh>` [C-Plane/run_core](https://github.com/Bofa14/Free5gc-UERANSIM-project/blob/main/C-Plane_settings/run_core.sh) ( that is automatically executed by the final python script 'see later').
 <br/>
 <br/>
 
 * CONFIGURATION OF THE U-Plane1:
 
-For the U-Plane1 we have modified just the config files inside [U_Plane1/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config) (upfcfg.yaml).
+For the U-Plane1 we have modified just the config (`upfcfg.yaml`) files inside [U_Plane1/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config).
 <br/>
 <br/>
 
 * CONFIGURATION OF THE U-Plane2:
 
-For the U-Plane2 we have modified just the config files inside [U_Plane2/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config) (upfcfg.yaml).
+For the U-Plane2 we have modified just the config (`upfcfg.yaml`) files inside [U_Plane2/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config).
 <br/>
 <br/>
 
 * CONFIGURATION OF THE gNB:
 
 As for the Core we have uploaded just the config file modified, but to run the whole UERANSIM repository is needed
-the modified config files can be found inside [gNB/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/gNB_settings/config) (free5gc-gnb.yaml).
+the modified config (`free5gc-gnb.yaml`) files can be found inside [gNB/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/gNB_settings/config).
 <br/>
 
 * CONFIGURATION OF THE UE:
@@ -75,7 +75,7 @@ Iperf -c <server> -B <interface>
 ```
 The command bind application with the interface use nr-binder: 
 ```
-sh nr-binder <interface> <app> e.g. firefox
+sh nr-binder <interface> <app> #e.g. firefox
 ```
 check for usage https://github-wiki-see.page/m/aligungr/UERANSIM/wiki/Usage
 
