@@ -82,7 +82,7 @@ For the testing we have done:
 ping -I <interface> <server>
 Iperf -c <server> -B <interface>
 ```
-The command bind application with the interface use nr-binder: 
+To bind any application with the interface use nr-binder: 
 ```
 sh nr-binder <interface> <app> #e.g. firefox
 ```
