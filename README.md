@@ -1,5 +1,5 @@
 # Free5gc-UERANSIM-project
-Simulation of a 5G network using Free5gc + UERANSIM. The enviroment is composed by 6 Virtual Machine, deployed using VirtualBox, organized as:
+Simulation of a 5G network using Free5gc + UERANSIM. The enviroment is composed by 6 Virtual Machine, deployed using VirtualBox, respectively:
 1 - C-Plane 
 2 - U-Plane1
 3 - U-Plane2
@@ -11,7 +11,19 @@ The configuration of the Core ( first three machine ) is done by using https://g
 
 CONFIGURATION OF THE 1 - C-Plane:
 
-we have modified the config files inside https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/C-Plane_settings
+for convinience we have uploaded in this repository just the NFs and Config files ( to run the simulation the all free5gc repository is needed ),
+the config files that we have modified can be found inside https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/C-Plane_settings
+
+CONFIGURATION OF THE U-Plane1:
+
+for the U-Plane1 we have modified just the config files inside https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config
+
+CONFIGURATION OF THE U-Plane2:
+
+for the U-Plane2 we have modified just the config files inside https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config
+
+
+
 
 
 
