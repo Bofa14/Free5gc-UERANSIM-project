@@ -15,7 +15,7 @@ The configuration of the Core ( first three machine ) is done by using https://g
 
 * CONFIGURATION OF THE C-Plane:
 
-for convinience we have uploaded in this repository just the NFs and Config files ( to run the simulation the all free5gc repository is needed ),
+for convinience we have uploaded in this repository just the NFs and Config files (to run the simulation the all free5gc repository is needed),
 the config files that we have modified can be found inside [C-Plane/NFs](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/C-Plane_settings).
 
 to start all the NFs we have used a script: <run_core.sh> [C-Plane/run_core](https://github.com/Bofa14/Free5gc-UERANSIM-project/blob/main/C-Plane_settings/run_core.sh) ( that is automatically executed by the final python script 'see later').
@@ -24,13 +24,13 @@ to start all the NFs we have used a script: <run_core.sh> [C-Plane/run_core](htt
 
 * CONFIGURATION OF THE U-Plane1:
 
-for the U-Plane1 we have modified just the config files inside [U_Plane1/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config) (upfcfg.yaml).
+For the U-Plane1 we have modified just the config files inside [U_Plane1/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config) (upfcfg.yaml).
 <br/>
 <br/>
 
 * CONFIGURATION OF THE U-Plane2:
 
-for the U-Plane2 we have modified just the config files inside [U_Plane2/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config) (upfcfg.yaml).
+For the U-Plane2 we have modified just the config files inside [U_Plane2/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config) (upfcfg.yaml).
 <br/>
 <br/>
 
@@ -42,8 +42,8 @@ the modified config files can be found inside [gNB/config](https://github.com/Bo
 
 * CONFIGURATION OF THE UE:
 
-For the UE we have added 5 users, which config files are https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/UE_settings/config.
-We have then registered all the ue using the free5gc webconsole https://github.com/free5gc/free5gc/wiki/New-Subscriber-via-webconsole.
+For the UE we have added 5 users, which config files are [UE/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/UE_settings/config).
+We have then registered all the ue using the free5gc webconsole [free5gc/webconsole](https://github.com/free5gc/free5gc/wiki/New-Subscriber-via-webconsole.
 <br/>
 <br/>
 <br/>
@@ -63,7 +63,7 @@ When all VMachine are up and configured with the instruction provided, run the s
 <br/>
 <br/>
 
-The Script to stop all the function need to be copied in the home directory of all the machine ( and made executable ). They can be found here: https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/Stop_Script.
+The Script to stop all the function need to be copied in the home directory of all the machine ( and made executable ). They can be found here: [stop_script](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/Stop_Script).
 <br/>
 <br/>
 <br/>
