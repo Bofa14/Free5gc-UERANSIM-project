@@ -1,6 +1,6 @@
 # Free5gc-UERANSIM-project
 Simulation of a 5G network using Free5gc + UERANSIM. The enviroment is composed by 6 Virtual Machine, deployed using VirtualBox, organized as:
-1 - C-Plane 
+1 - C-Plane /n
 2 - U-Plane1
 3 - U-Plane2
 4 - gNB
