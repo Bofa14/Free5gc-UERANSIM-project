@@ -54,7 +54,7 @@ We have then registered all the ue using the free5gc webconsole [free5gc/webcons
 
 
 As mentioned many times before *we have uploaded just the config files that we have modified* in order to fully reproduce the simulation, you have to create 5 virtual machine (with ubuntu 20.04) and follow the installation instruction provided by https://github.com/free5gc/free5gc and https://github.com/aligungr/UERANSIM.
-In order for the main script (placed in the main machine) to open an ssh connection with all the virtual machine we have setup a public key connection (between main pc and VMachines ) so that prompting password is not needed.
+In order for the main script (placed in the main machine) to open an ssh connection with all the virtual machine we have setted up a public key connection (between main pc and VMachines ) so that prompting password is not needed.
 <br/>
 <br/>
 
@@ -69,8 +69,9 @@ The Script to stop all the function need to be copied in the home directory of a
 <br/>
 
 For the testing we have done:  
-**ping -I <interface> <server>**
+'''ping -I <interface> <server>
 Iperf -c <server> -B <interface>
+'''
 The command bind application with the interface use nr-binder: sh nr-binder <interface> <app> e.g. firefox
 check for usage https://github-wiki-see.page/m/aligungr/UERANSIM/wiki/Usage
 
