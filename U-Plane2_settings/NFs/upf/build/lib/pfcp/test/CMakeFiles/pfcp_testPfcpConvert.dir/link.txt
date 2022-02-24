@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/pfcp_testPfcpConvert.dir/src/testPfcpConvert.c.o  -o /home/ubuntu/free5gc/NFs/upf/build/bin/testbin_pfcp/testPfcpConvert   -L/home/ubuntu/free5gc/NFs/upf/build/utlt_logger  -Wl,-rpath,/home/ubuntu/free5gc/NFs/upf/build/utlt_logger ../../utlt/libfree5GC_utlt.a ../libfree5GC_pfcp.a -llogger ../../utlt/libfree5GC_utlt.a -lrt -lpthread -lyaml -llogger 
