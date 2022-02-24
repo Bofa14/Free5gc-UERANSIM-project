@@ -15,4 +15,6 @@ CONFIGURATION OF THE 1 - C-Plane:
 
 
 
-When all VMachine are up, run the script on the main Machine, ( to run type in shell <python3 5g_run.py> )
+When all VMachine are up, run the script https://github.com/Bofa14/Free5gc-UERANSIM-project/blob/6f0cbbc0b59e3c87a105f5a305e7bce3d3257bed/5g_run.py on the main Machine, ( to run type in shell <python3 5g_run.py> )
+
+
