@@ -22,12 +22,12 @@ to start all the NFs we have used a script: <run_core.sh> [C-Plane/run_core](htt
 
 * CONFIGURATION OF THE U-Plane1:
 
-for the U-Plane1 we have modified just the config files inside https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config (upfcfg.yaml).
+for the U-Plane1 we have modified just the config files inside [C-Plane/U_Plane1/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane1_settings/NFs/upf/build/config) (upfcfg.yaml).
 
 
 * CONFIGURATION OF THE U-Plane2:
 
-for the U-Plane2 we have modified just the config files inside https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config (upfcfg.yaml).
+for the U-Plane2 we have modified just the config files inside [C-Plane/U_Plane2/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/U-Plane2_settings/NFs/upf/build/config) (upfcfg.yaml).
 
 
 * CONFIGURATION OF THE gNB:
