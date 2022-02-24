@@ -68,10 +68,10 @@ The Script to stop all the function need to be copied in the home directory of a
 <br/>
 <br/>
 
-For the testing we have done:
-ping -I <interface> <server>
-Iperf -c <server> -B <interface>
-The command bind application with the interface use nr-binder: sh nr-binder <interface> <app> e.g. firefox.
+For the testing we have done:  
+ping -I <interface> <server><br/>  
+Iperf -c <server> -B <interface><br/>
+The command bind application with the interface use nr-binder: sh nr-binder <interface> <app> e.g. firefox.<br/>
 check for usage https://github-wiki-see.page/m/aligungr/UERANSIM/wiki/Usage
 
 
