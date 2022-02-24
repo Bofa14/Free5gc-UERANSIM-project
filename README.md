@@ -59,7 +59,7 @@ We have then registered all the ue using the free5gc webconsole [free5gc/webcons
 
 
 As mentioned many times before *we have uploaded just the config files that we have modified* in order to fully reproduce the simulation, you have to create 5 virtual machine (with ubuntu 20.04) and follow the installation instruction provided by https://github.com/free5gc/free5gc and https://github.com/aligungr/UERANSIM.<br/>
-For the main script (placed in the main machine) to open an ssh connection with all the virtual machine we have setted up a public key connection (between main pc and VMachines ) so that prompting password is not needed.
+We have setted up a public key connection (between main pc and VMachines ) for the main script to be able to open an ssh connection with all the VMachines, so that prompting password is not needed.
 <br/>
 <br/>
 
