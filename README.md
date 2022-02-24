@@ -11,7 +11,7 @@ The configuration of the Core ( first three machine ) is done by using https://g
 
 CONFIGURATION OF THE 1 - C-Plane:
 
-we have modified the config files inside  https://github.com/Bofa14/Free5gc-UERANSIM-project/C-Plane_settings/
+we have modified the config files inside https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/C-Plane_settings
 
 
 
