@@ -15,3 +15,4 @@ CONFIGURATION OF THE 1 - C-Plane:
 
 
 
+When all VMachine are up, run the script on the main Machine, ( to run type in shell <python3 5g_run.py> )
