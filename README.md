@@ -43,7 +43,7 @@ the modified config files can be found inside [gNB/config](https://github.com/Bo
 * CONFIGURATION OF THE UE:
 
 For the UE we have added 5 users, which config files are [UE/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/UE_settings/config).
-We have then registered all the ue using the free5gc webconsole [free5gc/webconsole](https://github.com/free5gc/free5gc/wiki/New-Subscriber-via-webconsole.
+We have then registered all the ue using the free5gc webconsole [free5gc/webconsole](https://github.com/free5gc/free5gc/wiki/New-Subscriber-via-webconsole).
 <br/>
 <br/>
 <br/>
@@ -58,7 +58,7 @@ In order for the main script (placed in the main machine) to open an ssh connect
 <br/>
 <br/>
 
-When all VMachine are up and configured with the instruction provided, run the script https://github.com/Bofa14/Free5gc-UERANSIM-project/blob/fdf52972711db902fd322e675ead3ec8beefc8d8/5g_run.py on the main Machine, ( to run type in shell <python3 5g_run.py> ). The script will open a ssh connection and run the respective script for all the components. Type "stop" in the same shell where the main script was started to terminate all. (the main script when stop is signalled will trigger other scripts that we have created to close in the right way all the funtions, a problem when dealing with many ssh connection ).
+When all VMachine are up and configured with the instruction provided, run the script [main_script](https://github.com/Bofa14/Free5gc-UERANSIM-project/blob/fdf52972711db902fd322e675ead3ec8beefc8d8/5g_run.py) on the main Machine, ( to run type in shell <python3 5g_run.py> ). The script will open a ssh connection and run the respective script for all the components. Type "stop" in the same shell where the main script was started to terminate all. (the main script when stop is signalled will trigger other scripts that we have created to close in the right way all the funtions, a problem when dealing with many ssh connection ).
 <br/>
 <br/>
 <br/>
