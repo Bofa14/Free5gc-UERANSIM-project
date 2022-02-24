@@ -10,8 +10,6 @@ Simulation of a 5G network using Free5gc + UERANSIM. The enviroment is composed 
 The configuration of the Core ( first three machine ) is done by using https://github.com/free5gc/free5gc, for the UE and gNB we have used https://github.com/aligungr/UERANSIM.
 
 ---
-
-
 <br/>
 <br/>
 
@@ -48,9 +46,11 @@ The modified config `free5gc-gnb.yaml` files can be found inside [gNB/config](ht
 For the UE we have added 5 users, which config files are [UE/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/UE_settings/config).
 We have then registered all the ue using the free5gc webconsole [free5gc/webconsole](https://github.com/free5gc/free5gc/wiki/New-Subscriber-via-webconsole).
 
+
+<br/>
+<br/>
+
 ---
-<br/>
-<br/>
 <br/>
 <br/>
 
