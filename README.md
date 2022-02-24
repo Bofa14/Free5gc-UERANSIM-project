@@ -67,7 +67,7 @@ When all VMachine are up and configured with the instruction provided, run the s
 ```
 python3 5g_run.py
 ```
-The script will open a ssh connection and run the respective script for all the components. Type "stop" in the same shell where the main script was started to terminate all. (the main script when stop is signalled will trigger other scripts that we have created to close in the right way all the funtions, a problem when dealing with many ssh connection ).
+The script will open a ssh connection and run the respective script for all the components. Type "stop" in the same shell to terminate all. (the main script when stop is signalled will trigger other scripts that we have created to close in the right way all the funtions, a problem when dealing with many ssh connection ).
 <br/>
 <br/>
 <br/>
