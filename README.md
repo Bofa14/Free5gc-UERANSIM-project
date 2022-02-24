@@ -36,8 +36,8 @@ For the U-Plane2 we have modified just the config `upfcfg.yaml` files inside [U_
 
 * CONFIGURATION OF THE gNB:
 
-As for the Core we have uploaded just the config file modified, but to run the whole UERANSIM repository is needed
-the modified config `free5gc-gnb.yaml` files can be found inside [gNB/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/gNB_settings/config).
+As for the Core we have uploaded just the config file modified, but to run the whole UERANSIM repository is needed <br/>
+The modified config `free5gc-gnb.yaml` files can be found inside [gNB/config](https://github.com/Bofa14/Free5gc-UERANSIM-project/tree/main/gNB_settings/config).
 <br/>
 <br/>
 
