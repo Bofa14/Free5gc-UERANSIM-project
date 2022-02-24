@@ -51,7 +51,7 @@ We have then registered all the ue using the free5gc webconsole [free5gc/webcons
 <br/>
 
 
-
+---
 
 
 As mentioned many times before *we have uploaded just the config files that we have modified* in order to fully reproduce the simulation, you have to create 5 virtual machine (with ubuntu 20.04) and follow the installation instruction provided by https://github.com/free5gc/free5gc and https://github.com/aligungr/UERANSIM.
